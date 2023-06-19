@@ -1,0 +1,20 @@
+.section1{
+    /* background-image: url("https://lonelyplanetimages.imgix.net/mastheads/129940863_full.jpg"); */
+    min-height: 100vh;
+   
+    background-image: linear-gradient(black, black)
+
+}
+.section2{
+    min-height: 100vh;
+}
+
+.section1Div{
+    min-height: 100vh;
+
+}
+
+.section2Div{
+    min-height: 100vh;
+
+}

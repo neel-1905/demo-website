@@ -1,0 +1,17 @@
+.txtOutline {
+  color: transparent; /* Make the text transparent */
+  -webkit-text-stroke: 1px black; /* Outline color and width */
+  -webkit-text-fill-color: transparent; /* Fill the text with transparency */
+}
+
+.featuredHead {
+  font-size: 4vw;
+}
+
+.desc {
+  font-size: 1.5fr;
+}
+
+.content {
+  margin-bottom: 20vh;
+}

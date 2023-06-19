@@ -3,12 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-spring/parallax": "^9.7.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "framer-motion": "^10.12.16",
+    "gsap": "^3.12.1",
+    "jelly-scroll": "^1.3.0",
+    "mouse-follower": "^1.1.2",
     "react": "^18.2.0",
+    "react-awesome-button": "^7.0.5",
+    "react-creative-cursor": "^1.2.7",
     "react-dom": "^18.2.0",
+    "react-parallax": "^3.5.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
+    "smooth-scrollbar": "^8.8.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.63.4"
   }
 }
