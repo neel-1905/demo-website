@@ -29,11 +29,16 @@ const Featured = () => {
                   sed exercitationem officia deleniti, sit ab modi quo
                   repudiandae consectetur. Molestiae, voluptate!
                 </div>
+                <div className="mt-3">
+                  <button className="">
+                    <span>View Product</span>
+                  </button>
+                </div>
               </div>
 
               <div className="col-sm-5 order-1 order-sm-2">
                 <img
-                  style={{ width: "100%" }}
+                  style={{ width: "100%", borderRadius: "20px" }}
                   src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
                   alt=""
                 />
@@ -56,7 +61,7 @@ const Featured = () => {
 
               <div className="col-sm-5 order-1 order-sm-2">
                 <img
-                  style={{ width: "100%" }}
+                  style={{ width: "100%", borderRadius: "20px" }}
                   src="https://wallpapercave.com/wp/wp2896922.jpg"
                   alt=""
                 />
@@ -79,7 +84,7 @@ const Featured = () => {
 
               <div className="col-sm-5 order-1 order-sm-2">
                 <img
-                  style={{ width: "100%" }}
+                  style={{ width: "100%", borderRadius: "20px" }}
                   src="http://www.pixelstalk.net/wp-content/uploads/2016/05/Photos-Download-Adidas-Shoes-Wallpapers-HD.jpg"
                   alt=""
                 />
@@ -102,7 +107,7 @@ const Featured = () => {
 
               <div className="col-sm-5 order-1 order-sm-2">
                 <img
-                  style={{ width: "100%" }}
+                  style={{ width: "100%", borderRadius: "20px" }}
                   src="https://guhaha.com/wp-content/uploads/2020/06/He5f00c726d3745e7bdd33fca39d3cea9m-1.jpg"
                   alt=""
                 />

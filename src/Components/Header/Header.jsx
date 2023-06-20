@@ -4,8 +4,23 @@ import { Cursor } from "react-creative-cursor";
 import ecom1 from "../../images/ecommerce1.gif";
 import Fade from "react-reveal/Fade";
 import { motion } from "framer-motion";
+import gsap from "gsap";
 
 const Header = () => {
+  gsap.to(".layer", {
+    yPercent: -100,
+    stagger: 0.25,
+    ease: "expo.inOut",
+    scrollTrigger: {
+      trigger: ".overlay",
+      pin: true,
+      scrub: true,
+      start: "top top",
+      end: "+=100%",
+      //markers: true
+    },
+  });
+
   return (
     <>
       <Cursor isGelly cursorSize={12} />
@@ -68,6 +83,16 @@ const Header = () => {
             hic error voluptatibus nisi, repellendus consequatur. Cupiditate
             amet officiis eligendi. Molestiae.
           </p>
+        </div>
+
+        <div class="overlay">
+          <div class="layer animatex"></div>
+          <div class="layer animatey">
+            <div class="layer-heading">
+              <h1 class="text-white">ScrollTrigger Overlay</h1>
+            </div>
+          </div>
+          <div class="layer animatez"></div>
         </div>
       </header>
     </>

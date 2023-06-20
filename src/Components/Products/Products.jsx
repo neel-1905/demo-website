@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import { Cursor } from "react-creative-cursor";
 import { motion } from "framer-motion";
 import Flip from "react-reveal/Flip";
+import { AwesomeButton } from "react-awesome-button";
+import AnimatedScroll from "../AnimatedScroll/AnimatedScroll";
 
 const Products = () => {
   const ref = useRef(null);
@@ -10,12 +12,12 @@ const Products = () => {
     <>
       <Cursor isGelly={true} cursorSize={12} />
       <div className="container">
-        <div>
+        <div className="my-5">
           <h1 className="featuredHead">
             Similar <span className="txtOutline">Products</span>
           </h1>
         </div>
-        <div className="container">
+        {/* <div className="container">
           <div className="container text-center p-5">
             <Flip top duration={1000}>
               <div className="row">
@@ -84,10 +86,8 @@ const Products = () => {
               </div>
             </Flip>
           </div>
-          <div className="text-center">
-            <button className="btn btn-danger">Button</button>
-          </div>
-        </div>
+        </div> */}
+        <AnimatedScroll />
       </div>
     </>
   );
